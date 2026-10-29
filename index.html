@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08050d">
+<title>For Jannu ✦ November 6</title>
+<style>
+:root{--pink:#ff4fc8;--purple:#a66bff;--ink:#08050d;--muted:#b9adc8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 50% 15%,#24102f 0%,#0c0712 43%,#050408 100%);color:#fff;font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+button{font:inherit;cursor:pointer}
+#stars{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.star{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;opacity:.45;animation:twinkle 3s infinite ease-in-out}
+@keyframes twinkle{0%,100%{opacity:.12;transform:scale(.7)}50%{opacity:.9;transform:scale(1.5)}}
+main{position:relative;z-index:1}
+section{min-height:100svh;padding:90px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative}
+.eyebrow{font:11px/1.5 Arial,sans-serif;letter-spacing:.32em;text-transform:uppercase;color:#d7b4ff}
+h1,h2,p{margin-top:0}
+h1{font-size:clamp(3rem,10vw,7rem);font-weight:400;letter-spacing:-.055em;line-height:.95;margin:22px 0}
+h1 span,.glow{color:var(--pink);text-shadow:0 0 24px #ff4fc855,0 0 60px #a66bff44}
+h2{font-size:clamp(2rem,6vw,4rem);font-weight:400;margin-bottom:18px}
+p{font-size:clamp(1rem,2.5vw,1.2rem);line-height:1.8;color:#d8cede;max-width:650px}
+.small{font:12px/1.6 Arial,sans-serif;letter-spacing:.12em;color:#9e91ac}
+.btn{border:1px solid #b46cff88;color:white;background:#160d21;padding:14px 22px;border-radius:999px;letter-spacing:.08em;transition:.25s;box-shadow:0 0 24px #a66bff15}
+.btn:hover{transform:translateY(-2px);border-color:var(--pink);box-shadow:0 0 30px #ff4fc833}
+.intro{animation:fadeUp 1.4s both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.rule{width:90px;height:1px;background:linear-gradient(90deg,transparent,var(--pink),var(--purple),transparent);margin:22px auto}
+.countdown{display:flex;gap:clamp(10px,4vw,30px);margin:30px 0}
+.time{min-width:58px}
+.time strong{display:block;font-size:clamp(2rem,7vw,4rem);font-weight:400;color:#fff;text-shadow:0 0 20px #b36aff66}
+.time span{font:10px Arial,sans-serif;letter-spacing:.2em;color:#b7a5c8;text-transform:uppercase}
+.photo-frame{width:min(88vw,650px);padding:8px;border:1px solid #a66bff77;border-radius:8px;background:linear-gradient(135deg,#ff4fc822,#a66bff11);box-shadow:0 0 65px #a66bff22;transform:rotate(-1deg);margin:24px 0}
+.photo-frame img{display:block;width:100%;height:auto;max-height:52vh;object-fit:cover;filter:grayscale(100%);border-radius:3px}
+.caption{font-style:italic;color:#e4c9ff}
+.envelope{position:relative;width:min(80vw,300px);height:190px;margin:35px auto;display:grid;place-items:center;background:linear-gradient(145deg,#291139,#120a1b);border:1px solid #d96cff99;border-radius:6px;box-shadow:0 0 55px #a66bff20;transition:.5s}
+.envelope:before{content:"";position:absolute;top:-1px;left:0;width:100%;height:50%;background:linear-gradient(135deg,transparent 49%,#7c43a0 50%,transparent 51%),linear-gradient(225deg,transparent 49%,#7c43a0 50%,transparent 51%);opacity:.65}
+.envelope .seal{position:relative;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#2b1035;border:1px solid var(--pink);color:var(--pink);font-size:24px;box-shadow:0 0 25px #ff4fc844}
+.envelope.open{transform:translateY(-5px) scale(1.02)}
+.letter{display:none;text-align:left;max-width:680px;padding:clamp(22px,5vw,42px);border:1px solid #a66bff66;background:#100a18dd;border-radius:8px;box-shadow:0 0 70px #a66bff1b;animation:fadeUp .8s both}
+.letter.show{display:block}
+.letter p{font-size:1.05rem}
+.bangla{font-family:Arial,sans-serif;color:#f0dffb}
+.final-photo{transform:rotate(1deg);animation:photoGlow 4s ease-in-out infinite alternate}
+@keyframes photoGlow{from{box-shadow:0 0 35px #a66bff22}to{box-shadow:0 0 75px #ff4fc844}}
+.hidden{display:none!important}
+footer{position:relative;z-index:1;text-align:center;padding:30px 15px;color:#756780;font:11px Arial,sans-serif;letter-spacing:.1em}
+@media(max-width:500px){section{padding:75px 18px}.countdown{gap:12px}.time{min-width:48px}.photo-frame img{max-height:42vh}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div id="stars"></div>
+<main>
+<section id="welcome">
+<div class="intro">
+<div class="eyebrow">A little secret, made just for you</div>
+<h1>For <span>Jannu</span></h1>
+<div class="rule"></div>
+<p>Some people arrive quietly…<br>and somehow make the world feel different.</p>
+<button class="btn" id="enter">Enter your little universe ✦</button>
+<p class="small" style="margin-top:24px">BEST EXPERIENCED WITH SOUND ON · OPTIONAL</p>
+</div>
+</section>
+<section id="count">
+<div class="eyebrow">The day the world got you</div>
+<h2>November <span class="glow">06</span></h2>
+<p>There are dates on a calendar, and then there are dates that mean a little more.</p>
+<div class="countdown" id="timer">
+<div class="time"><strong id="days">00</strong><span>Days</span></div>
+<div class="time"><strong id="hours">00</strong><span>Hours</span></div>
+<div class="time"><strong id="minutes">00</strong><span>Minutes</span></div>
+<div class="time"><strong id="seconds">00</strong><span>Seconds</span></div>
+</div>
+<p class="small" id="count-note">Counting down to your day ✦</p>
+<button class="btn" id="memories">There is something I kept for you ↓</button>
+</section>
+<section id="portrait">
+<div class="eyebrow">A face that deserves its own little constellation</div>
+<h2>Just <span class="glow">you.</span></h2>
+<div class="photo-frame"><img src="assets/jannu-photo.jpg" alt="Jannu's photo"></div>
+<p class="caption">“If the universe had a favourite kind of quiet, maybe it would look like this.”</p>
+<button class="btn" id="open-letter">One more little secret ✉</button>
+</section>
+<section id="message">
+<div class="eyebrow">A letter I couldn't leave unsaid</div>
+<h2>Open when <span class="glow">you're ready.</span></h2>
+<button class="envelope" id="envelope" aria-label="Open the birthday letter"><span class="seal">✦</span></button>
+<p class="small">TAP THE ENVELOPE</p>
+<article class="letter" id="letter">
+<p>Happy Birthday, Jannu. ♡</p>
+<p>There are some people who become special without even trying. They find a place in your thoughts, in the smallest moments of your day, and in the things you wish you could explain but never quite can.</p>
+<p>তুমি আমার কাছে ঠিক তেমনই একজন। সব অনুভূতির হয়তো সুন্দর কোনো নাম হয় না, আর সব কথা মুখে বলাও যায় না। কিন্তু তার মানে এই নয় যে অনুভূতিগুলো কম সত্যি।</p>
+<p>I don't know what the future holds, and maybe that's okay. Today, I just want you to know that your existence matters, your happiness matters, and I genuinely hope life gives you the kind of beautiful moments you deserve.</p>
+<p class="bangla">তোমার নতুন বছরটা হোক শান্তি, হাসি, ভালোবাসা আর এমন কিছু মুহূর্তে ভরা—যেগুলো মনে পড়লে তোমার নিজের অজান্তেই মুখে হাসি চলে আসে। তুমি ভালো থেকো, নিজের মতো করে সুন্দর থেকো।</p>
+<p>And if this little website made you smile even once, then it has done exactly what I hoped it would.</p>
+<p>With a little more feeling than these words can explain,<br><span class="glow">someone who thinks you're special.</span></p>
+<button class="btn" id="reveal">Wait… there's one last thing ✦</button>
+</article>
+</section>
+<section id="final">
+<div class="eyebrow">The last scene is yours</div>
+<h2>Happy Birthday,<br><span class="glow">Jannu.</span></h2>
+<div class="photo-frame final-photo">
+  <img src="assets/jannu-photo.jpg" alt="Jannu — the person this little universe was made for">
+</div>
+<p class="caption">“Some people are a feeling, not just a person.”</p>
+<p>আজকের দিনটা তোমার মতোই সুন্দর হোক। Keep shining, Jannu. ♡</p>
+<div class="rule"></div>
+<p class="small">A LITTLE UNIVERSE · MADE JUST FOR YOU</p>
+<button class="btn" id="again">Replay from the beginning ↺</button>
+</section>
+</main>
+<footer>✦ A LITTLE UNIVERSE CALLED JANNU ✦</footer>
+<script>
+const stars=document.getElementById('stars');
+for(let i=0;i<90;i++){let s=document.createElement('i');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=(Math.random()*4)+'s';s.style.opacity=(Math.random()*.65).toFixed(2);stars.appendChild(s)}
+function go(id){document.getElementById(id).scrollIntoView({behavior:'smooth'})}
+document.getElementById('enter').onclick=()=>go('count');
+document.getElementById('memories').onclick=()=>go('portrait');
+document.getElementById('open-letter').onclick=()=>go('message');
+document.getElementById('envelope').onclick=()=>{document.getElementById('envelope').classList.add('open');document.getElementById('letter').classList.add('show');document.querySelector('#message .small').classList.add('hidden');document.getElementById('letter').scrollIntoView({behavior:'smooth',block:'center'})};
+document.getElementById('reveal').onclick=()=>go('final');
+document.getElementById('again').onclick=()=>window.scrollTo({top:0,behavior:'smooth'});
+function updateCountdown(){
+ const now=new Date();let year=now.getFullYear();let target=new Date(year,10,6,0,0,0);
+ if(now>=target)target=new Date(year+1,10,6,0,0,0);
+ let diff=target-now;
+ const d=Math.floor(diff/86400000),h=Math.floor(diff%86400000/3600000),m=Math.floor(diff%3600000/60000),s=Math.floor(diff%60000/1000);
+ document.getElementById('days').textContent=String(d).padStart(2,'0');
+ document.getElementById('hours').textContent=String(h).padStart(2,'0');
+ document.getElementById('minutes').textContent=String(m).padStart(2,'0');
+ document.getElementById('seconds').textContent=String(s).padStart(2,'0');
+ if(now.getMonth()===10&&now.getDate()===6)document.getElementById('count-note').textContent='It is your day. Happy Birthday, Jannu ✦';
+}
+updateCountdown();setInterval(updateCountdown,1000);
+</script>
+</body>
+</html>
